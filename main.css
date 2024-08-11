@@ -1,1 +1,13 @@
+body {
+    display: flex; /* 画面全体の配置を調整するための設定 */
+    justify-content: center; /* コンテンツを中央に配置 */
+    padding: 0px 10px; /* 画面の上下に 0px の余白、左右に10pxの余白を設定 */
+}
 
+.ingredients {
+    font-weight: normal;
+    font-size: 2rem;
+    padding-left: 10px; /* 要素内側の左部に 10px の余白 */
+    border-left: 15px solid; /* 要素境界の左端に幅 20px の実線 */
+    border-bottom: 4px solid; /* 要素境界の下端に幅 4px の実線 */
+}
